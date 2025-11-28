@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label,input,select{
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+   <div style="background-color: rgb(191, 161, 219);">
+    <form action="" method="get">
+        <label for="name"name="name">Tên</label><br>
+        <input type="text"name="name" id="name" placeholder="User name" ><br>
+        <!--for trong lable và id trong input phải giống với nhau-->
+        <label for="full name"name="full name">Họ và tên</label><br>
+        <input type="password"name="full name"id="full name" placeholder="Họ và tên đệm của bạn" size="90"><br>
+        <label for="quocgia"name="quocgia">Quốc gia</label><br>
+        <select name="quocgia" id="quocgia">
+            <option value="">Chọn quốc gia</option>
+            <option value="Việt nam ">Việt Nam</option>
+            <option value="Campuchia">Campuchia</option>
+            <option value="China">China</option>
+        </select><br>
+        <input type="submit"></input>
+        <label> <input type="radio" value="1"name="1">Nữ</label>
+         <label> <input type="radio" value="2"name="1">Nam</label>
+         <!--name phải giống nhau value có thể khác-->
+         <label><input type="checkbox">Nữ</label>
+         <label><input type="checkbox">nam</label>
+         <label><input type="checkbox">nhiều</label>
+    </form>
+   
+    
+</body>
+</html>
